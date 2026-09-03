@@ -1,0 +1,40 @@
+📢 [ENGLISH VERSION] - Microphone Input System Documentation
+
+Overview
+Microphone Input System allows you to control character animations dynamically based on an audio clip (e.g., imported MP3 voicelines), including volume detection. It supports dialogue playlists (arrays of voicelines + subtitles + per-line mouth toggle).
+
+Supported Animations:
+- Head Rotation (Angle Mode)
+- Skinned Mesh BlendShape control (BlendShape Mode)
+- Text Output (Intensity Mode)
+- Position Shifting (Position Mode)
+- Sprite Swapping (SpriteSwap Mode)
+
+How to Setup
+1. Add the MicrophoneInputSystem script to a GameObject.
+2. On MicrophoneManager (Inspector), fill:
+    - voiceLines (AudioClip array)
+    - mouthShouldMove (bool array aligned to voiceLines)
+    - subtitles (string array aligned to voiceLines)
+    - transitionDelays (float array, seconds to wait before moving to the next line)
+    - subtitleTextTarget (assign your TMP text object for captions)
+    - audiblePlayback (toggle whether you hear the audio)
+   (If you leave arrays empty, it will fall back to the single voiceClip field.)
+3. Optionally assign a TMP text field to MicrophoneInputSystem.subtitleTextTarget (overrides manager target).
+4. Choose the Voice Target Mode in the Inspector.
+5. Assign the relevant target object depending on the mode:
+    - Angle/Position Mode → Assign a Transform
+    - BlendShape Mode → Assign a SkinnedMeshRenderer and (optionally) a BlendShape name
+    - Intensity Mode → Assign a TextMeshPro object
+    - SpriteSwap Mode → Assign a SpriteRenderer and mouth Sprites
+
+Options Explanation
+- Sensitivity: Controls the response power based on clip loudness.
+- Smooth Speed: Controls the animation transition smoothness.
+
+Important Notes
+- Import your MP3/WAV/OGG files as AudioClips and assign them to MicrophoneManager.voiceLines (or leave arrays empty to use MicrophoneManager’s single clip).
+- MicrophoneManager is required for playlist data.
+- Inspector warnings will notify you if critical fields are missing.
+- No microphone permissions are required; audio can play audibly (toggle in Inspector) while still driving animations.
+- Designed to be lightweight and compatible with mobile and desktop platforms.

@@ -1,0 +1,4 @@
+# Unity projects mix text YAML with binary assets, and some files that look like
+# text (LightingData.asset, some .asset files) are binary. Disable all line
+# ending conversion so nothing is ever rewritten on checkout.
+* -text

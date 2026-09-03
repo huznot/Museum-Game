@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 33b14fcd2e5b9504a8e6721959adf520
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318084
+  packageName: TalkSync - Voice Activated Motion
+  packageVersion: 1.0
+  assetPath: Assets/Pack_MicrophoneInput/Prefabs/mouth.prefab
+  uploadId: 757066

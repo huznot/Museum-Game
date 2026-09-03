@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d1ca8b41ff451164d81f8d9dc5fe2073
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318084
+  packageName: TalkSync - Voice Activated Motion
+  packageVersion: 1.0
+  assetPath: Assets/Pack_MicrophoneInput/Scripts/MicrophoneInputSystem.cs
+  uploadId: 757066
