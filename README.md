@@ -1,10 +1,14 @@
 # Museum Game
 
-A first-person museum built in Unity. You walk between exhibits, listen to narration, and answer a short quiz.
+A first-person Black history museum built in Unity. You walk between exhibits, listen to the narration for each one, and answer a question at the end of every room.
 
-## Play in browser
+Exhibits cover figures and objects like Frederick Douglass, Madam C. J. Walker, Langston Hughes, Jackie Robinson, Mae Jemison, Nelson Mandela, Ketanji Brown Jackson, Benin brass plaques, and the Great Mosque of Djenne.
+
+## Play
 
 [id-game-delta.vercel.app](https://id-game-delta.vercel.app)
+
+Runs in the browser, nothing to download.
 
 ## Run from source
 
@@ -12,7 +16,7 @@ A first-person museum built in Unity. You walk between exhibits, listen to narra
 2. Clone this repo, then add the folder in Unity Hub
 3. Open `Assets/_Project/Scenes/MuseumTitle.unity` and press Play
 
-Scenes play in this order: `MuseumTitle` → `MuseumGame` → `MuseumCredits`.
+Scenes play in this order: `MuseumTitle`, `MuseumGame`, `MuseumCredits`.
 
 ## Layout
 
