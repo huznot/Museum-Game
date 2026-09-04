@@ -1,5 +1,7 @@
 # Museum Game
 
+![Black History Museum](docs/title.jpg)
+
 A first-person Black history museum built in Unity. You walk between exhibits, listen to the narration for each one, and answer a question at the end of every room.
 
 Exhibits cover figures and objects like Frederick Douglass, Madam C. J. Walker, Langston Hughes, Jackie Robinson, Mae Jemison, Nelson Mandela, Ketanji Brown Jackson, Benin brass plaques, and the Great Mosque of Djenne.
